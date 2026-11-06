@@ -63,4 +63,3 @@ O MongoDB cria também o campo `_id`. O índice único de `isbn` impede cadastro
 - `find_one_and_update()` altera a disponibilidade com uma condição: somente livros disponíveis podem ser emprestados e somente emprestados podem ser devolvidos.
 - `datetime.now(timezone.utc)` registra o momento do empréstimo.
 
-> Projeto educacional. Para uso real, adicione autenticação, regras de permissão e histórico permanente de empréstimos.
